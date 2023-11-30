@@ -39,7 +39,7 @@ union
 select * from dbo.['2020$']
 ```
 
-*Exploratory Data Analysis*
+### 3-Exploratory Data Analysis
 
 Temporary Table
 
