@@ -22,6 +22,7 @@ select * from dbo.['2019$']
 
 select * from dbo.['2020$']
 ```
+https://github.com/ipekhisar/Hotel-Booking-Data-Analysis/issues/4#issue-2018086403
 
 *Combining the Data*
 
@@ -56,6 +57,7 @@ select * from dbo.['2020$'])
 select*from hotels
 
 ```
+![tek tablo](https://github.com/ipekhisar/Hotel-Booking-Data-Analysis/assets/150418764/4adaf019-7432-4985-8087-fb5fc95b4dbb)
 
 **Q1- Is our hotel revenue growing yearly?**
 
