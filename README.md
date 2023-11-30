@@ -101,3 +101,20 @@ GRoup by arrival_date_year, hotel
 
 ![parking](https://github.com/ipekhisar/Hotel-Booking-Data-Analysis/assets/150418764/19ff8d2e-4d23-4e17-8b8c-75656a7928c0)
 
+### 4-Create Data Visualizations Using Power BI
+
+We transfer data from SQL database to Power BI.
+
+![sql-powerbi](https://github.com/ipekhisar/Hotel-Booking-Data-Analysis/assets/150418764/3e077c43-f8e4-4610-aa8a-1cd3b06a8960)
+
+We have created some visuals using Power BI that show some possible trends. 
+
+**Q3-What trends can we see in the data?**
+
+
+Revenue increased from 2018 to 2019, but it began to decrease from 2019 to 2020.
+
+The average daily rate (ADR) has increased from 2019 to 2020, from $102,15 to $119,86.
+
+Total number of nights booked by customers decreased from 2019 to 2020.
+![image](https://github.com/ipekhisar/Hotel-Booking-Data-Analysis/assets/150418764/acdad9d0-2124-49c0-a743-5cb2a045dc0f)
