@@ -22,7 +22,8 @@ select * from dbo.['2019$']
 
 select * from dbo.['2020$']
 ```
-https://github.com/ipekhisar/Hotel-Booking-Data-Analysis/issues/4#issue-2018086403
+> ![query](https://private-user-images.githubusercontent.com/150418764/286857810-51c785ef-989b-445a-88af-2d39bbec46ce.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEzMzE2MzIsIm5iZiI6MTcwMTMzMTMzMiwicGF0aCI6Ii8xNTA0MTg3NjQvMjg2ODU3ODEwLTUxYzc4NWVmLTk4OWItNDQ1YS04OGFmLTJkMzliYmVjNDZjZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTEzMFQwODAyMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zYmU3N2YwNWNmMTYxMWMxZmY0M2QxZTJlZmI4MTNmNTVlMzIxMTBiM2JmNWI3YjUyNGM0OWM5MTU5YmM5MmFiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.akaE6FqJ3P0Bm0ZXtTABUzcJUFZLLk4f0vFjyly8cNI)
+
 
 *Combining the Data*
 
@@ -74,6 +75,8 @@ select arrival_date_year, sum((stays_in_week_nights+stays_in_weekend_nights)*adr
 
 Group by arrival_date_year
 ```
+> ![yıllara göre](https://private-user-images.githubusercontent.com/150418764/286858587-3a06d0d8-0c9a-461a-b2ab-c6bcd3614352.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEzMzE3NjAsIm5iZiI6MTcwMTMzMTQ2MCwicGF0aCI6Ii8xNTA0MTg3NjQvMjg2ODU4NTg3LTNhMDZkMGQ4LTBjOWEtNDYxYS1iMmFiLWM2YmNkMzYxNDM1Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTEzMFQwODA0MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZTAyMTZjMDVlYzZlN2Q5YzE3YmUxY2NiZTg1YjVmYTViMjIxMGU2ZGE5MjFkNWI4MGNjY2ZiNzFhMzc4YmNjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-8JCRF4fhMWpjHtIhWYMApvwizh2mgZiUjtjneON6ZU)
+
 
 ***We can see that the revenue increased from 2018 to 2019 but then decreased again in 2020.***
 
@@ -96,4 +99,5 @@ GRoup by arrival_date_year, hotel
 ```
 ***So, there is no need to increase our parking lot size.***
 
+![parking](https://github.com/ipekhisar/Hotel-Booking-Data-Analysis/assets/150418764/19ff8d2e-4d23-4e17-8b8c-75656a7928c0)
 
